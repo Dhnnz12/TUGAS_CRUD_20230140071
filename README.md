@@ -37,7 +37,7 @@ Aplikasi manajemen data KTP (Kartu Tanda Penduduk) berbasis full-stack yang diba
 ```json
 {
   "nomorKtp": "1234567890123456",
-  "namaLengkap": "Dhonan IT UMY",
+  "namaLengkap": "Hibrizi Fathin Dhonan",
   "alamat": "Jalan RingRoad Utara, Yogyakarta",
   "tanggalLahir": "2005-01-01",
   "jenisKelamin": "LAKI-LAKI"
