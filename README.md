@@ -42,6 +42,7 @@ Aplikasi manajemen data KTP (Kartu Tanda Penduduk) berbasis full-stack yang diba
   "tanggalLahir": "2005-01-01",
   "jenisKelamin": "LAKI-LAKI"
 }
+```json
 
 📸 Dokumentasi Visual
 
