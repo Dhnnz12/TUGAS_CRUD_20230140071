@@ -34,59 +34,58 @@ Aplikasi manajemen data KTP (Kartu Tanda Penduduk) berbasis full-stack yang diba
 | DELETE | `/ktp/{id}` | Menghapus data KTP |
 
 ### Struktur Data (JSON)
+```json
 {
   "nomorKtp": "1234567890123456",
-  "namaLengkap": "Hibrizi Fathin Dhonan",
+  "namaLengkap": "Dhonan IT UMY",
   "alamat": "Jalan RingRoad Utara, Yogyakarta",
   "tanggalLahir": "2005-01-01",
   "jenisKelamin": "LAKI-LAKI"
 }
-
-
+```
 📸 Dokumentasi Visual
 
 🖥️ Antarmuka Pengguna (UI)
-Dashboard Utama & Input Data
+
+1. Dashboard Utama & Input Data
 <img width="1901" height="914" alt="image" src="https://github.com/user-attachments/assets/1fb24038-bc42-44db-9ca7-6ff47314923a" />
 
-Proses Edit Data
+2. Proses Edit Data
 <img width="1919" height="918" alt="image" src="https://github.com/user-attachments/assets/9a1fef91-420d-4e44-966a-b1f88b0f4ea0" />
 
-Update Data
+3. Update Data
 <img width="1898" height="924" alt="image" src="https://github.com/user-attachments/assets/68043712-fb47-4589-8382-dd60ba52854c" />
 
-Delete Data
+4. Delete Data
 <img width="1894" height="916" alt="image" src="https://github.com/user-attachments/assets/98892a2f-8128-447d-b76e-492de40859b3" />
 
 🚀 Pengujian API (Postman)
-POST (Tambah Data)
+
+1. POST (Tambah Data)
 <img width="1831" height="887" alt="image" src="https://github.com/user-attachments/assets/44b25fd9-0ebc-47b9-a958-c2fc96e88266" />
 
-GET (Ambil Semua Data)
+2. GET (Ambil Semua Data)
 <img width="1911" height="988" alt="image" src="https://github.com/user-attachments/assets/44b5abb7-d227-4bd8-bb46-a5cba03067a1" />
 
-GET By ID
+3. GET By ID
 <img width="1854" height="1016" alt="image" src="https://github.com/user-attachments/assets/89ee122c-f782-4baf-9244-3e568af47642" />
 
-UPDATE
+4. UPDATE
 <img width="1915" height="1022" alt="image" src="https://github.com/user-attachments/assets/81d25136-ad52-4be6-ad8f-c90b4f50f587" />
 
-DELETE
+5. DELETE
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/075f294b-de9b-4c9d-952f-39e90c44ec5b" />
 
 🚀 Cara Menjalankan Proyek
-Persiapan Database:
 
+1. Persiapan Database:
 Buat database baru di MySQL dengan nama deploy_3.
-
 Pastikan konfigurasi di src/main/resources/application.properties sudah sesuai dengan username dan password MySQL kamu.
 
-Jalankan Backend:
-
+2. Jalankan Backend:
 Eksekusi perintah .\mvnw spring-boot:run di terminal, atau klik Run pada kelas Pertemuan3Application di IntelliJ IDEA.
 
-Akses Aplikasi:
-
+3. Akses Aplikasi:
 Buka browser dan arahkan ke alamat http://localhost:8080.
 
 
