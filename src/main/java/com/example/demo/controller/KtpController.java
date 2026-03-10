@@ -20,14 +20,8 @@ public class KtpController {
 
     // POST /ktp: Menambah data KTP baru
     @PostMapping
-    public ResponseEntity<?> createKtp(@Valid @RequestBody Ktp ktp) {
-        try {
-            Ktp created = ktpService.create(ktp);
-            return new ResponseEntity<>(created, HttpStatus.CREATED);
-        } catch (RuntimeException e) {
-            // Error Handling jika nomor KTP duplikat
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-        }
+    public ResponseEntity<Ktp> createKtp(@Valid @RequestBody Ktp ktp) {
+        return new ResponseEntity<>(ktpService.create(ktp), HttpStatus.CREATED);
     }
 
     // GET /ktp: Mengambil seluruh data KTP
